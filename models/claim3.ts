@@ -163,6 +163,7 @@ import { InternationalOperationsCountries1 } from './international-operations-co
 import { InternationalPaymentsCountries1 } from './international-payments-countries1';
 import { MobileNumber1 } from './mobile-number1';
 import { Nationality1 } from './nationality1';
+import { NominalPersonWithSignificantControl4 } from './nominal-person-with-significant-control4';
 import { PersonWithSignificantControl5 } from './person-with-significant-control5';
 import { PurposesOfAccount1 } from './purposes-of-account1';
 import { RelianceVerification1 } from './reliance-verification1';
@@ -182,6 +183,6 @@ import { UkFinancialServicesRegister1 } from './uk-financial-services-register1'
  * @type Claim3
  * @export
  */
-export type Claim3 = MobileNumber1 | IndividualIdentity1 | SoleTrader4 | UkCompanyRegister4 | IndividualIncome4 | InitialDeposit4 | InternationalPaymentsCountries1 | CompanyTelephoneNumber1 | PersonWithSignificantControl5 | CompanyEmailAddress1 | TaxResidency1 | UkFinancialServicesRegister1 | BusinessDescription1 | IndividualSourcesOfFunds1 | BusinessAddress4 | Employment4 | AnnualTurnover4 | PurposesOfAccount1 | SicCodes4 | InternationalOperationsCountries1 | SourcesOfFunds1 | ContactDetails1 | RelianceVerification1 | BusinessName1 | IndividualPurposesOfAccount1 | Nationality1 | TradingName1 | SocialMedia1 | TradingAddress4 | CompanyWebsite1 | Director5 | AlternativeNumber1 | TaxIdentificationNumber1 | IndividualResidence4;
+export type Claim3 = MobileNumber1 | IndividualIdentity1 | SoleTrader4 | UkCompanyRegister4 | IndividualIncome4 | InitialDeposit4 | InternationalPaymentsCountries1 | CompanyTelephoneNumber1 | PersonWithSignificantControl5 | CompanyEmailAddress1 | TaxResidency1 | UkFinancialServicesRegister1 | BusinessDescription1 | IndividualSourcesOfFunds1 | NominalPersonWithSignificantControl4 | BusinessAddress4 | Employment4 | AnnualTurnover4 | PurposesOfAccount1 | SicCodes4 | InternationalOperationsCountries1 | SourcesOfFunds1 | ContactDetails1 | RelianceVerification1 | BusinessName1 | IndividualPurposesOfAccount1 | Nationality1 | TradingName1 | SocialMedia1 | TradingAddress4 | CompanyWebsite1 | Director5 | AlternativeNumber1 | TaxIdentificationNumber1 | IndividualResidence4;
 
 

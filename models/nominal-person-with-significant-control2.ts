@@ -142,20 +142,35 @@ import type * as buffer from "buffer"
 /**
  * 
  * @export
- * @interface PscProperty
+ * @interface NominalPersonWithSignificantControl2
  */
-export interface PscProperty {
+export interface NominalPersonWithSignificantControl2 {
     /**
-     * The percentage ownership the legal person has of the corporation.
+     * A contextual link to the [legal person](http://docs.griffin.com).
      * @type {string}
-     * @memberof PscProperty
+     * @memberof NominalPersonWithSignificantControl2
      */
-    'ownership-percent'?: string;
+    'legal-person-url': string;
     /**
      * The URL of the entity in Companies House
      * @type {string}
-     * @memberof PscProperty
+     * @memberof NominalPersonWithSignificantControl2
      */
     'companies-house-url'?: string;
+    /**
+     * 
+     * @type {boolean}
+     * @memberof NominalPersonWithSignificantControl2
+     */
+    'senior-manager?'?: boolean;
+    /**
+     * 
+     * @type {string}
+     * @memberof NominalPersonWithSignificantControl2
+     */
+    'claim-type': NominalPersonWithSignificantControl2ClaimTypeEnum;
 }
+
+type NominalPersonWithSignificantControl2ClaimTypeEnum = 'nominal-person-with-significant-control'
+
 

@@ -160,6 +160,7 @@ import { InternationalOperationsCountries } from './international-operations-cou
 import { InternationalPaymentsCountries } from './international-payments-countries';
 import { MobileNumber } from './mobile-number';
 import { Nationality } from './nationality';
+import { NominalPersonWithSignificantControl5 } from './nominal-person-with-significant-control5';
 import { PersonWithSignificantControl6 } from './person-with-significant-control6';
 import { PurposesOfAccount } from './purposes-of-account';
 import { RelianceVerification } from './reliance-verification';
@@ -178,6 +179,6 @@ import { UkFinancialServicesRegister } from './uk-financial-services-register';
  * @type ClaimsCreateNewClaimResponse
  * @export
  */
-export type ClaimsCreateNewClaimResponse = MobileNumber | IndividualIdentity | SoleTrader5 | UkCompanyRegister5 | IndividualIncome5 | InitialDeposit5 | InternationalPaymentsCountries | CompanyTelephoneNumber | PersonWithSignificantControl6 | CompanyEmailAddress | TaxResidency | UkFinancialServicesRegister | BusinessDescription | IndividualSourcesOfFunds | BusinessAddress5 | Employment | AnnualTurnover5 | PurposesOfAccount | SicCodes5 | InternationalOperationsCountries | SourcesOfFunds | ContactDetails | RelianceVerification | BusinessName | IndividualPurposesOfAccount | Nationality | TradingName | SocialMedia | TradingAddress5 | CompanyWebsite | Director6 | AlternativeNumber | TaxIdentificationNumber | IndividualResidence5;
+export type ClaimsCreateNewClaimResponse = MobileNumber | IndividualIdentity | SoleTrader5 | UkCompanyRegister5 | IndividualIncome5 | InitialDeposit5 | InternationalPaymentsCountries | CompanyTelephoneNumber | PersonWithSignificantControl6 | CompanyEmailAddress | TaxResidency | UkFinancialServicesRegister | BusinessDescription | IndividualSourcesOfFunds | NominalPersonWithSignificantControl5 | BusinessAddress5 | Employment | AnnualTurnover5 | PurposesOfAccount | SicCodes5 | InternationalOperationsCountries | SourcesOfFunds | ContactDetails | RelianceVerification | BusinessName | IndividualPurposesOfAccount | Nationality | TradingName | SocialMedia | TradingAddress5 | CompanyWebsite | Director6 | AlternativeNumber | TaxIdentificationNumber | IndividualResidence5;
 
 
